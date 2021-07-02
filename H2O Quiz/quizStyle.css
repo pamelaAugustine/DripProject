@@ -1,0 +1,226 @@
+
+/* this is for the title and the body of the page */
+body{
+  background-image: url(./images/faucetearthcrop2.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+} 
+
+#quizTitle{
+    font-size: 100px;
+    text-shadow:  0 5px 15px black; 
+    text-align: center;
+    font-weight: bold;
+    color:  rgb(28, 47, 124);
+    font-family: candara;
+}
+
+#instructions{
+    font-size: 25px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(28, 47, 124);
+    font-family: candara;
+    font-weight: bold;
+}
+
+.edge{
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(28,47,124);
+  /* border-color: rgb(119,168,40); */
+}
+
+.box{
+  box-shadow: 0px 10px 30px rgba(24,22,22,.89);
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+/* this is for the quiz question section */
+
+#quiz{
+    font-family: candara;
+    /* background-color: rgba(190, 169, 140, 0.882); */
+    background-color: rgba(246, 237, 213, 0.623);
+   margin: 60px;
+   font-size: 18px;
+   box-shadow: 0 10px 30px RGBA(24,22,22,.89);
+   padding: 30px;
+   color: rgb(28, 47, 124);
+   /* height: 1810px; */
+}
+/* NOT A THING */
+/* #submitButton{
+    font-size: 20px;
+    Text-align: center;
+} */
+
+/* this is the end of the quiz question section */
+
+
+
+#submit{
+    margin-left: 525px;
+    background-color: rgb(119, 168, 40); 
+    border-color: rgb(28, 47, 124);
+    border-radius: 5px;
+    color: rgb(28, 47, 124);
+   margin-top: -100px
+}
+
+#FunFactsLink {
+  background-color: rgb(119, 168, 40); 
+  border-color: rgb(28, 47, 124);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.shadow{
+    box-shadow: 0 10px 30px RGBA(24,22,22,.89);
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+
+
+/* Nav Bar Info */
+
+
+body {
+    font-family: Candara;
+  }
+  
+  #navLines {
+    color: rgba(28, 47, 124, 0.904);
+    margin-left: 50%;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgba(28, 47, 124, 0.904);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  
+  /* This is for the tool tip pop up */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  /* end of nav bar */
+
+  /* media queries */
+  /* i pad */
+   @media(max-width:768px){
+#submit{
+  margin-left: 230px;
+  margin-top: 20px;
+}
+
+body{
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position-x: 50%;
+} 
+
+  }  
+  @media(max-width:414px){
+  
+    #quiz {
+      width: 375px;
+      margin-left: 5px;
+    }
+
+    #submit{
+   margin-left:100px;
+   margin-top: 20px;
+    }
+
+    #navLines{
+      margin-left: 175px;
+    }
+  } 

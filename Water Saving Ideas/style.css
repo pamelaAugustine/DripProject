@@ -1,0 +1,391 @@
+body {
+    font-family: candara;
+    background-image: url(./images/faucetearthcrop2.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  }
+
+  .title{
+    font-weight: bold;
+    font-size: 100px;
+    color: rgb(28,47,124);
+    text-shadow:  0 5px 15px black; 
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(28,47,124);
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(24,22,22,.89);
+    margin-left: 25px;
+    width: 97%;
+  }
+  
+  .info{
+    text-align: center;
+    color: #F6EDD5;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(28, 47, 124, 0.904);
+    margin: 25px;
+  }
+  
+    .box{
+      margin: 25px;
+      color: rgb(28,47,124);
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: bold;
+    } 
+  
+  .edge{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(28,47,124);
+  }
+  
+  .green{
+    background-color: rgba(119, 168, 40, 0.678);
+    height: auto;
+  }
+  
+.ways2save {
+  position: relative;
+  left: 20%;
+  padding-right:  270px;
+  line-height: 1.90;
+}
+
+#toilet {
+  position: absolute;
+  height: 330px;
+}
+
+ #washVeggie {
+  position: absolute;
+  top: 163%;
+  height: 330px;
+}
+
+#sprinkler {
+  float: right;
+  height: 350px;
+}
+
+.save {
+  position: relative;
+  left: 26%;
+  padding-right:  340px;
+  line-height: 1.90;
+}
+
+p{
+  font-size: 20px;
+}
+
+footer {
+  margin: 45px 15px 45px 15px;
+  height: 110px;
+  color: rgb(28,47,124);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(28,47,124);
+  box-shadow: 0px 10px 30px rgba(24,22,22,.89);
+  }
+  
+  #tdProject {
+    font-weight: bold;
+    font-size: 75px;
+    text-shadow:  -2px 0 rgba(119, 168, 40, 0.678), 0 2px rgba(119, 168, 40, 0.678), 2px 0 rgba(119, 168, 40, 0.678), 0 -2px rgba(119, 168, 40, 0.678);
+  margin-left: 5%;
+  }
+  
+  
+  #contact {
+    background-color: rgb(28,47,124);
+    color: #F6EDD5;
+    border-color: rgba(119, 168, 40, 0.678);
+    border-width: 3px;
+    float: right;
+    margin-top: 2%;
+    margin-right: 20%;
+  }
+  
+  
+  /* modal */
+  .modal-content {
+    background-image: url(/images/mainLogo.jpg);
+    background-size: cover;
+  }
+  
+  .modal {
+    background-color: rgba(28, 47, 124, 0.678);
+  }
+  
+  .modal-header {
+    color: #F6EDD5;
+    text-shadow:0 3px 2px black;
+    font-family: candara;
+  font-weight: bold;
+    }
+  
+  
+    input {
+      border-radius: 5px;
+      box-shadow: 0px 10px 20px rgba(24, 22, 22, .89);
+     width: 275px;
+    }
+  
+    #submit {
+      background-color: rgba(28, 47, 124);
+      border-color: #F6EDD5;
+      border-style: solid;
+      border-radius: 5px;
+      width: 95.33px;
+      height: 38px;
+      color: #F6EDD5;
+    
+    }
+  
+    #last, #email {
+      margin-top: 9px;
+    }
+
+    #back2you {
+      text-align:center;
+    }
+    
+    #tdp {
+      color: #F6EDD5;
+      font-family: segoe script;
+      font-weight: bold;
+      font-size: 18px;
+      text-shadow:0 3px 2px black;
+    }
+
+    #thankYou {
+      background-color: rgba(28, 47, 124);
+      border-color: #F6EDD5;
+      border-style: solid;
+      border-radius: 5px;
+      width: 95.33px;
+      height: 38px;
+      color: #F6EDD5;
+    font-size: 18px;
+    }
+  
+
+  /* Nav Bar Info */
+
+  #navLines {
+    color: rgba(28, 47, 124, 0.904);
+    margin-left: 50%;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgba(28, 47, 124, 0.904);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  } */
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* end of nav bar */
+
+/**************** MEDIA QUERIES*************** */
+
+/* --------------------TABLET-------------------- */
+  @media only screen and (max-width:768px){
+
+
+    body {
+      background-image: url(/images/faucetearthcropTABLET.jpg);   
+      background-repeat: no-repeat; 
+      background-position-y: top;
+      background-attachment: fixed;
+    }
+
+    .title{
+      font-size: 75px;
+      margin-left: 40px;
+      width: 88%;
+    }
+
+    .info{
+      font-size: 22px;
+      margin-left: 40px;
+      width: 88%;
+    }
+
+    .box{
+      margin-left: 40px;
+      width: 88%;
+    } 
+
+    .ways2save {
+      left: 0%;
+      padding-right:  15px;
+    }
+    
+    #toilet, #washVeggie, #sprinkler {
+      display: none;
+    }
+    
+    .save {
+      left: 0%;
+      padding-right:  15px;
+    }
+    
+    p{
+     margin-left: 3%;
+      padding-right:  15px;
+    }
+    
+      footer {
+        margin-left: 40px;
+        width: 88%;
+        font-size: 67px;
+      }
+  }
+
+
+/* ------------IPHONE-------------- */
+
+@media only screen and (max-width:414px){
+
+  body {
+    background-image: url(/images/faucetearthcropIPHONE.jpg);   
+    background-repeat: no-repeat; 
+    background-position-y: top;
+    background-attachment: fixed;
+  }
+
+  .title{
+    font-size: 50px;
+    margin-left: 11px;
+    width: 95%;
+  }
+
+  .info{
+    font-size: 17px;
+    margin-left: 11px;
+    width: 95%;
+  }
+
+  .box {
+    margin-left: 11px;
+    width: 95%;
+  }
+
+  .ways2save {
+    margin-right: -13%;
+    margin-left: -9%;
+    padding: 0px;
+    font-size: 14px;
+  }
+  
+  #toilet, #washVeggie, #sprinkler {
+    display: none;
+  }
+  
+  .save {
+    margin-right: -13%;
+    margin-left: -9%;
+    padding: 0px;
+    font-size: 14px;
+  }
+  
+  p{
+    margin-right: -13%;
+    margin-left: -9%;
+    padding: 0px;
+    font-size: 14px;
+  }
+  
+    footer {
+      margin-left: 11px;
+      width: 95%;
+      font-size: 50px;
+    }
+}

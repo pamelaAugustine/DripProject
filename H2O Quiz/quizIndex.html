@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="quizStyle.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <title>H2O IQ</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <span id="navLines" class="mid" style="font-size:30px;cursor:pointer" onclick="openNav()" data-toggle="tooltip"
+            title="Navigation Links">&#9776;</span>
+
+        <!-- this is for the Nav Bar -->
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="/Home/home.html" >Home</a>
+                <a href="/graph/index.html" >Water Usage Statistics</a>
+                <a href="/H2O Quiz/quizIndex.html" >H2O Quiz</a>
+                <a href="/Water Saving Ideas/index.html" >Water Saving Tips</a>
+                <a href="/Water Conservation Conference/index.html" >Water Conservation Conference</a>
+                <a href="/Fun Facts/funfacts.html" >Fun Facts</a>
+            </div>
+        </div>
+
+
+
+        <header id="quizTitle" class="center edge title box">H<span style="font-size: 60px; vertical-align: bottom">2</span>O IQ Quiz</header>
+
+
+
+        <h1 id="instructions">This is your H2O IQ Quiz. Depending on your answers you will get a score of Low H2O IQ ,
+            Medium H2O IQ or High H2O IQ </h1>
+
+
+        <form class='needs-validation' name="h2oQuiz" novalidate>
+            <div id="quizBackground">
+
+                <!-- this is the begining of the quiz section -->
+                <div id="quiz">
+
+                    <div id="qOne">
+                        <p>&#10122; Every day in the United States, we drink about ________
+                            million gallons of water.
+                        </p>
+
+                        <div class="answers">
+                            <label for="false">
+                                <input id="false" type="radio" name="q1" value="0">25
+                            </label>
+                            <br>
+                            <label for="true">
+                                <input id="true" type="radio" name="q1" value="1">110
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q1" value="0">50
+                            </label>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div id="qTwo">
+                        <p>&#10123; The average American uses ____________ gallons of water
+                            per day.
+                        </p>
+
+                        <div class="answers">
+                            <label for="true">
+                                <input id="true" type="radio" name="q2" value="1">140-170
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q2" value="0">150-175
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q2" value="0">200-250
+                            </label>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div id="qThree">
+                        <p>&#10124; A leaky faucet can waste _______________ a day.
+                        </p>
+
+                        <div class="answers">
+                            <label for="false">
+                                <input id="false" type="radio" name="q3" value="0">25 gallons
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q3" value="0">50 gallons
+                            </label>
+                            <br>
+                            <label for="true">
+                                <input id="true" type="radio" name="q3" value="1">100 gallons
+                            </label>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div id="qFour">
+                        <p>&#10125; You use about ______________ of water if you leave the
+                            water running while brushing your teeth.
+                        </p>
+
+                        <div class="answers">
+                            <label for="true">
+                                <input id="true" type="radio" name="q4" value="1">5 gallons
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q4" value="0">1 gallons
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q4" value="0">3 gallons
+                            </label>
+                        </div>
+
+                    </div>
+                    <br>
+
+
+
+                    <div id="qFive">
+                        <p>&#10126; An automatic dishwasher uses _________ gallons of
+                            water while hand washing dishes can use up to 20
+                            gallons.
+                        </p>
+
+                        <div class="answers">
+                            <label for="false">
+                                <input id="false" type="radio" name="q5" value="0">2 to 5
+                            </label>
+                            <br>
+                            <label for="true">
+                                <input id="true" type="radio" name="q5" value="1">9 to 12
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q5" value="0">5 to 9
+                            </label>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div id="qSix">
+                        <p>&#10127; An average bath requires _____ gallons of water.
+                        </p>
+
+                        <div class="answers">
+                            <label for="true">
+                                <input id="true" type="radio" name="q6" value="1">37
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q6" value="0">20
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q6" value="0">27
+                            </label>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div id="qSeven">
+                        <p>&#10128; The average 5-minute shower takes 15-25 gallons of
+                            water--around _______________ are used in 10 minutes.
+                        </p>
+
+                        <div class="answers">
+                            <label for="true">
+                                <input id="true" type="radio" name="q7" value="1">40 gallons
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q7" value="0">50 gallons
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q7" value="0">60 gallons
+                            </label>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div id="qEight">
+                        <p>&#10129; One flush of the toilet uses around ______ gallons of water.
+                        </p>
+
+                        <div class="answers">
+                            <label for="false">
+                                <input id="false" type="radio" name="q8" value="0">1 1/2
+                            </label>
+                            <br>
+                            <label for="true">
+                                <input id="true" type="radio" name="q8" value="1">3 1/2
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q8" value="0">2 1/2
+                            </label>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div id="qNine">
+                        <p>&#10130; Approximately 1 million miles of pipelines and
+                            aqueducts carry water in the US & Canada. That's
+                            enough pipe to circle the earth _____ times.
+                        </p>
+
+                        <div class="answers">
+                            <label for="false">
+                                <input id="false" type="radio" name="q9" value="0">25
+                            </label>
+                            <br>
+                            <label for="true">
+                                <input id="true" type="radio" name="q9" value="1">40
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q9" value="0">15
+                            </label>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div id="qTen">
+                        <p>&#10131; ______ million gallons of water are needed to produce a
+                            single day's supply of US newsprint.
+                        </p>
+
+                        <div class="answers">
+                            <label for="false">
+                                <input id="false" type="radio" name="q10" value="0">100
+                            </label>
+                            <br>
+                            <label for="false">
+                                <input id="false" type="radio" name="q10" value="0">200
+                            </label>
+                            <br>
+                            <label for="true">
+                                <input id="true" type="radio" name="q10" value="1">300
+                            </label>
+                        </div>
+
+                    </div>
+        </form>
+    <!-- </div> -->
+        <!-- _____________________ this is the end of the questions_________________________________ -->
+
+<br>
+
+
+ <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --> 
+        <div class="container back">
+
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="submit">
+                Submit
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal shadow" id="myModal">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header text-center">
+                            <h4 class="modal-title text-center"><strong>H2O Quiz Results</strong></h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <br>
+                            <br>
+                            <strong>
+                                <div id="outputBoxs"></div>
+                            </strong>
+                            <img height='100px' width='100px' id='result-image'src="images/testhighscore.png">
+                            <br>
+                            <br>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type= 'button' id='FunFactsLink'><a href='/Fun Facts/funfacts.html'> More Info </a></button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+    </div>
+
+
+
+
+    </div>
+</div>
+
+    <!-- import jquery -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+
+    <!-- import bootstrap scripts -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- import D3.js -->
+    <script type="text/javascript" src="js/d3.js"></script>
+
+
+
+</body>
+
+
+
+</html>

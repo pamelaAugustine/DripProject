@@ -1,0 +1,18 @@
+{
+  "meta": "Water usage data",
+  "data": [
+    {
+      "dailyWasteHousehold": "25",
+      "dailyWasteUsa": "2050000000",
+      "bestCleanWater": "Hawaii",
+      "bathConsumption": "36",
+      "showerConsumption": "32",
+      "dishWasher": "12",
+      "washingDishes": "18",
+      "flushingToliet": "3",
+      "humanPopulation1975": "4000000000",
+      "humanPopulation1999": "6000000000",
+      "humanPopulation2019": "7700000000"
+    }
+  ]
+}

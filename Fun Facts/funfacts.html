@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- import bootstrap full CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="w3style.css" /> -->
+  <title>Fun Facts</title>
+
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <span id="navLines" class="mid" style="font-size:30px;cursor:pointer" onclick="openNav()" data-toggle="tooltip"
+      title="Navigation Links">&#9776;</span>
+
+    <!-- this is for the Nav Bar -->
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="/Home/home.html">Home</a>
+                <a href="/graph/index.html" >Water Usage Statistics</a>
+                <a href="/H2O Quiz/quizIndex.html" >H2O Quiz</a>
+                <a href="/Water Saving Ideas/index.html" >Water Saving Tips</a>
+                <a href="/Water Conservation Conference/index.html" >Water Conservation Conference</a>
+                <a href="/Fun Facts/funfacts.html" >Fun Facts</a>
+      </div>
+    </div>
+    <!---------------------- END NAV BAR---------------------->
+
+
+    <h1 class="title">Fun Facts About Water</h1>
+    <br>
+    <br>
+
+
+      <div class="col carousel " id="arrow" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+    
+      <div  class="col carousel-item active theBox">
+        <p>You use about 5 gallons of water if you leave the water running while
+          brushing your teeth.</p>
+      </div>
+
+      <div class="col carousel-item  theBox">
+        <p>A leaky faucet can waste 100 gallons a day.</p>
+      </div>
+
+      <div  class="col carousel-item  theBox">
+        <p>If every household in America had a faucet that dripped once each
+          second, 928 million gallons of water a day would leak away.</p>
+      </div>
+
+      <div  class="col carousel-item   theBox">
+        <p> An average bath requires 37 gallons of water.</p>
+      </div>
+
+      
+      <div class="col carousel-item theBox">
+        <p>300 million gallons of water are needed to produce a
+          single day's supply of US newsprint.</p>
+      </div>
+
+      <div class="col carousel-item theBox">
+        <p> An acre foot of water is about 326,000 gallons. One half acre foot is
+          enough to meet the needs of a
+          typical family for a year. There are 7.48 gallons in a
+          cubic foot of water.
+        </p>
+      </div>
+
+      <div class="col carousel-item theBox">
+        <p>A dairy cow must drink four gallons of water to
+          produce one gallon of milk.
+        </p>
+      </div>
+
+      <div class="col carousel-item theBox">
+        <p>It takes about 100 gallons of water to grow and
+          process a single pound of cotton, and the average
+          American goes through about 35 pounds of new
+          cotton material each year.
+        </p>
+      </div>
+
+      <div class="col carousel-item theBox">
+        <p> A gallon of gasoline takes nearly 13 gallons of water
+          to produce. Combine your errands, car pool to work,
+          or take public transportation to reduce both your
+          energy and water use.</p>
+      </div>
+
+      <div class="col carousel-item theBox">
+        <p> One inch of rainfall drops 7,000 gallons or nearly 30
+          tons of water on a 60' by 180' piece of land.</p>
+      </div>
+
+      <div class="col carousel-item theBox">
+        <p>According to recent reports, nearly 5% of all US
+          water withdrawals are used to fuel industry and the
+          production of many of the material goods we stock
+          up on weekly, monthly, and yearly.
+        </p>
+      </div>
+
+      <div class="col carousel-item theBox">
+        <p>An automatic dishwasher uses 9 to 12 gallons of
+          water while hand washing dishes can use up to 20
+          gallons.
+        </p>
+      </div>
+
+   
+      <div class="col carousel-item theBox">
+        <p>Only 1% of the earth's water is available for drinking water.</p>
+      </div>
+      <div class="col carousel-item theBox">
+        <p>Flying from Los Angeles to San Francisco, about 700
+          miles round-trip, could cost you more than 9,000
+          gallons of water, or enough for almost 2,000 average
+          dishwasher loads.
+        </p>
+      </div>
+      <div class="col carousel-item theBox">
+        <p> An average family of four uses 881 gallons of water
+          per week just by flushing the toilet.
+        </p>
+      </div>
+      <div class="col carousel-item theBox">
+        <p> Approximately 1 million miles of pipelines and
+          aqueducts carry water in the U.S. & Canada. That's
+          enough pipe to circle the earth 40 times!</p>
+      </div>
+
+      <div class="col carousel-item theBox">
+        <p>If you water your grass and trees more heavily, but
+          less often, this saves water and builds stronger roots.
+        </p>
+      </div>
+      <div class="col carousel-item theBox">
+        <p>One flush of the toilet uses 3 ½ gallons of water (on
+          average).</p>
+      </div>
+      <div  class="col carousel-item theBox">
+        <p> Public water suppliers process 38 billion gallons of
+          water per day for domestic and public use.
+        </p>
+      </div>
+      <div class="col carousel-item theBox">
+        <p> The average American uses 140-170 gallons of water
+          per day.
+        </p>
+      </div>
+
+
+<!-- CAROUSEL DIVS -->
+  </div>
+  <a class="carousel-control-prev" id="left" href="#arrow" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" id="right" href="#arrow" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+
+  </div>
+
+  <footer >
+      <h1 id="tdProject">The Drip Project
+      <button id="contact" type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Contact Us!</button></h1>
+  </footer>
+  
+  <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+          <div class="modal-content">
+  
+  <div class="modal-header">
+      <h4 class="modal-title">We Would Love To Hear From You!</h4>
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+  </div>
+  
+  <div class="modal-body">
+      <form>
+          <div class="form-row input-group mb-3">
+              <div class="col">
+              <div class="input-group-prepend">
+              </div>
+              <input id="first" type="text" class="form-control" placeholder="First Name">
+              <input id="last" type="text" class="form-control" placeholder="Last Name">
+  
+              
+              <input id="email" type="text" class="form-control" id="email" placeholder="Enter email" name="email" required></div>
+  
+              <div class="col">
+              <textarea class="form-control" rows="5" id="comment"></textarea></div>
+          </div>
+      </form>
+  </div> 
+  
+  <div class="modal-footer">
+          
+          <button id="thankYou" type="button" class="btn btn-lg" data-toggle="modal" data-target="#myThankYouModal">Submit</button></h1>
+  </div>
+          </div>
+      </div>
+  </div> 
+  
+  <!-- ********************THANK YOU MODAL***************************** -->
+  <div class="modal fade" id="myThankYouModal">
+      <div class="modal-dialog">
+          <div id="thankYouContent" class="modal-content">
+  
+  <div class="modal-header">
+    <h4 id="back2you" class="modal-title"> , Thank you for contacting The Drip Project! We will get back to you at our earliest convenience </h4>
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+  </div>
+  
+   <div class="modal-body">
+          <p id="tdp">Sincerely,
+                  The Drip Project ☺</p>
+  </div> 
+  <!-- end of modal body  -->
+  <div class="modal-footer">
+       
+  </div>
+          </div>
+      </div>
+  </div>  
+
+
+  <!-- import jquery -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <!-- import bootstrap scripts -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <!-- import D3.js -->
+  <script type="text/javascript" src="js/d3.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

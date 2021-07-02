@@ -1,0 +1,522 @@
+body {
+    background-color: #F6EDD5;
+    font-family: candara;
+}
+
+/* ----------------NAV BAR----------- */
+
+#navLines {
+    color: rgba(28, 47, 124, 0.904);
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgba(28, 47, 124, 0.904);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: candara;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+   */
+  /* ----------This is for the tool tip pop up ----------*/
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+/* ---------------END NAV BAR-------- */
+
+#logoPicture {
+    z-index: 1;
+    text-align:center;
+    background-image: url(images/mainLogo.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 775px;
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(24, 22, 22,.89);
+    border-radius: 5px;
+}
+
+#words {
+    position: relative;
+    top: 35%;
+    right: 21%;
+    font-size: 8vw;
+    color: #F6EDD5;
+    text-shadow: 0 5px 15px black;
+    font-family: candara;
+  }
+
+  #details {
+    position: relative;
+    top: 35%;
+    left: -1%;
+    padding-right: 450px;
+    text-shadow: 4px 2px 3px black;
+    font-size: 35px;  
+    color: #F6EDD5;
+    font-family: candara;
+}
+
+#explain {
+    background-color: rgb(28, 47, 124);
+    text-align: center;
+    font-family: candara;
+    font-size: 25px;
+    color: #F6EDD5;
+    font-weight: bold;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(24, 22, 22,.89);
+    border-radius: 5px;
+    width: 98%;
+    margin-left: 1%;
+}
+
+/* -----------LOGOS PICTURE---------- */
+
+#allLogos{
+    box-shadow: 0 10px 30px rgba(24, 22, 22,.89);
+    border-radius: 5px;
+    width: 98%;
+    margin-left: 1%;
+    position: relative;
+    z-index: 1;
+  }
+
+  #youAre {
+    font-family: candara;
+    color: #F6EDD5;
+    font-size: 120px;  
+    font-display: bold;
+    text-shadow: 3px 2px black;
+    position: absolute;
+  z-index: 2;
+  top: 152%;
+  left: 37%;
+  }
+
+  #invited {
+    font-family: candara;
+    color: #F6EDD5;
+    font-size: 120px;  
+    font-display: bold;
+    text-shadow: 3px 2px black;
+    position: absolute;
+  z-index: 2;
+  top: 175%;
+  left: 38%;
+  }
+
+#theConf {
+    margin: 45px 15px 45px 15px;
+    height: 110px;
+    font-weight: bold;
+    font-size: 75px;
+    color: rgb(28,47,124);
+    text-shadow:  -2px 0 rgba(119, 168, 40, 0.678), 0 2px rgba(119, 168, 40, 0.678), 2px 0 rgba(119, 168, 40, 0.678), 0 -2px rgba(119, 168, 40, 0.678);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(28,47,124);
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(24,22,22,.89);
+}
+
+.box-container {
+    display: flex;
+  }
+
+#confPic {
+    box-shadow: 0 10px 30px rgba(24, 22, 22,.89);
+    border-radius: 5px;
+    width:670px;
+   height: 500px;
+   margin-left: 1%;
+  }
+
+  .box2 {
+    height: 500px;
+    background-image: url("images/oceanstrip.jpg");
+    background-size: cover;
+    width: 57%;
+    box-shadow: 0 10px 30px rgba(24, 22, 22,.89);
+    border-radius: 5px;
+    margin-left: 3%;
+  }
+
+  #whenWhere {
+    background-color: rgb(28, 47, 124);
+    color: #F6EDD5;
+    font-family: candara;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgba(24, 22, 22, .89);
+    padding:  15px  0px 15px 0px;
+    opacity: .70;
+    width:  720px;
+    margin-left: 10%;
+    margin-right: 3%;
+    margin-top: 3%;
+  }
+
+  #when {
+    text-decoration: underline;
+    font-weight: bolder;
+    text-shadow: 0  3px 2px black;
+    margin-left:  40%;
+  }
+  
+  #where {
+    text-decoration: underline;
+    font-weight: bolder;
+    text-shadow: 0  3px 2px black;
+    margin-left:  45%;
+  }
+
+  #hilton, #mesa {
+    margin-left: 85px;
+  }
+  
+  #present, #dinner {
+    margin-left: 45px;
+  }
+
+  li {
+    font-size:  25px;
+    text-shadow: 0  3px 2px black;
+  }
+
+  
+#help, #please {
+    font-family: candara;
+    text-align: center;
+    text-shadow:0 3px 2px black;
+    font-display: bold;
+    padding-right: 70px;
+    padding-left: 70px;
+    color: #F6EDD5;
+    font-weight: bolder;
+    opacity: .75;
+  }
+
+  #rsvpButton {
+    background-color: rgb(28, 47, 124);
+    color: #F6EDD5;
+    font-weight: bold;
+    font-family: candara;
+    opacity: 0.75;
+    border-radius: 5px;
+    border-color: rgb(28, 47, 124);
+    margin-left: 40%;
+    width: 150px;
+  }
+
+
+  /* MODAL */
+
+.modal {
+
+  background-color: rgba(28, 47, 124, 0.678);
+}
+
+ .modal-content {
+    background-image: url(/images/mainLogo.jpg);
+    background-size: cover;
+  }
+
+  .modal-header {
+  color: #F6EDD5;
+  text-shadow:0 3px 2px black;
+  font-family: candara;
+font-weight: bold;
+  }
+
+input {
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px rgba(24, 22, 22, .89);
+ width: 275px;
+}
+
+#tdp {
+  color: #F6EDD5;
+  font-family: segoe script;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow:0 3px 2px black;
+}
+
+#going {
+  background-color: rgb(119, 168, 40);
+  color: #F6EDD5;
+  font-weight: bold;
+  font-family: candara;
+  border-color: #F6EDD5;
+  border-style: solid;
+  border-radius: 5px;
+  margin-right: 15%;
+  width: 95.33px;
+}
+
+#notGoing {
+  background-color: rgb(28, 47, 124);
+  color: #F6EDD5;
+  font-weight: bold;
+  font-family: candara;
+  border-color: #F6EDD5;
+  border-style: solid;
+  border-radius: 5px;
+  margin-right: 15%;
+}
+
+#close {
+  margin-right: 4%;
+  border-color: #F6EDD5;
+  border-style: solid;
+  border-radius: 5px;
+  width: 95.33px;
+  height: 38px;
+}
+
+/* FOOTER */
+
+footer {
+  font-family: candara;
+  margin: 45px 15px 45px 15px;
+    height: 120px;
+    font-weight: bold;
+    font-size: 75px;
+    color: rgb(28,47,124);
+    text-shadow:  -2px 0 rgba(119, 168, 40, 0.678), 0 2px rgba(119, 168, 40, 0.678), 2px 0 rgba(119, 168, 40, 0.678), 0 -2px rgba(119, 168, 40, 0.678);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(28,47,124);
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(24,22,22,.89);
+}
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media screen and (max-width:768px){
+
+#logoPicture {
+  background-image: url(/images/mainLogoTAB.jpg);
+}
+
+#details {
+  margin-left: 17%;
+}
+
+#youAre {
+  top: 136%;
+left: 38%;
+font-size: 52px;
+}
+
+#invited {
+  top: 144%;
+left: 39%;
+font-size: 52px;
+}
+
+#confPic {
+  display: none;
+}
+
+.box2 {
+  width: 723.23px;
+  height: 362.17px;
+  margin-left: 7.375px;
+}
+
+#whenWhere{
+  width: 85%;
+  margin-left: 8%;
+}
+
+.half {
+  margin-left: 7%;
+}
+
+#when, #where {
+  font-size: 23px;
+}
+
+li {
+  font-size: 15px;
+}
+
+#please, #help {
+  font-size: 21px;
+}
+}
+
+/* IPHONE */
+@media screen and (max-width:414px){
+  #logoPicture {
+    background-image: url(/images/mainLogoPhone2.jpg);
+    height: 550px;
+   overflow: hidden;
+  }
+
+  #details {
+    font-size: 18px;
+    padding-right: 157px;
+  }
+
+  #words {
+    right: 16%;
+    font-size: 36px;
+  }
+
+  #explain {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 12px;
+    padding: 20px;
+  }
+
+  #allLogos {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  #youAre {
+    top: 115%;
+    left: 36%;
+    font-size: 34px;
+  }
+
+#invited{
+  top: 120%;
+  left: 37%;
+  font-size: 34px;
+}
+
+#theConf {
+  font-family:  candara;
+  margin: 0px;
+  height: 68px;
+  font-size: 44px;
+  width: 100%;
+}
+
+.box2 {
+  width: 100%;
+  margin-left: 0%;
+}
+
+#whenWhere{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.half {
+  margin-left: -5%;
+}
+
+#when, #where {
+  font-size: 16px;
+}
+
+li {
+  font-size: 10px;
+}
+
+#please, #help {
+  font-size: 18px;
+}
+
+#rsvpButton {
+  margin-left: 28%;
+}
+
+footer {
+  font-family:  candara;
+  margin: 20px 0px 25px 13px;
+  height: 74px;
+  font-size: 44px;
+  width: 93%;
+}
+
+#notGoing, #going, #close {
+  margin-right: 6%;
+}
+
+}

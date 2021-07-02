@@ -1,0 +1,341 @@
+body{
+    background-image: url(./images/mainLogo.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    overflow: hidden;
+} 
+
+.title{
+    font-family: Candara;
+    height: 110px;
+    font-weight: bold;
+    font-size: 75px;
+    color: rgb(28,47,124);
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(28,47,124);
+    box-shadow: 0px 10px 30px rgba(24,22,22,.89);
+    background-color: rgba(255, 255, 255, 0.363);
+    text-shadow:  -2px 0 rgba(119, 168, 40, 0.678), 0 2px rgba(119, 168, 40, 0.678), 2px 0 rgba(119, 168, 40, 0.678), 0 -2px rgba(119, 168, 40, 0.678);
+}
+
+
+
+.theBox {
+ min-height: 300px;
+  width: 50%;
+  background-color: rgba(119, 168, 40, 0.678);
+  box-shadow: 0px 10px 30px rgba(24,22,22,.89);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(28,47,124);
+  text-align: center;
+  margin-top: 2%;
+}
+
+#left {
+  margin-left: -60px;
+}
+
+#right {
+  margin-right: 730px;
+}
+
+p {
+  font-weight: bold;
+  color: rgb(28,47,124);
+  text-align: center;
+  font-size: 25px;
+  padding: 90px 60px 30px  ;
+}
+
+
+footer {
+  margin: 45px 15px 45px 15px;
+  height: 110px;
+  color: rgb(28,47,124);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(28,47,124);
+  box-shadow: 0px 10px 30px rgba(24,22,22,.89);
+  }
+
+#tdProject{
+  font-weight: bold;
+  font-size: 75px;
+  text-shadow:  -2px 0 rgba(119, 168, 40, 0.678), 0 2px rgba(119, 168, 40, 0.678), 2px 0 rgba(119, 168, 40, 0.678), 0 -2px rgba(119, 168, 40, 0.678);
+margin-left: 5%;
+}
+
+
+#contact {
+  background-color: rgb(28,47,124);
+  color: #F6EDD5;
+  border-color: rgba(119, 168, 40, 0.678);
+  border-width: 3px;
+  float: right;
+  margin-top: 2%;
+  margin-right: 20%;
+}
+
+
+/* modal */
+.modal-content {
+  background-image: url(/images/mainLogo.jpg);
+  background-size: cover;
+}
+
+.modal {
+  background-color: rgba(28, 47, 124, 0.678);
+}
+
+.modal-header {
+  color: #F6EDD5;
+  text-shadow:0 3px 2px black;
+  font-family: candara;
+font-weight: bold;
+  }
+
+
+  input {
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(24, 22, 22, .89);
+   width: 275px;
+  }
+
+  #submit {
+    background-color: rgba(28, 47, 124);
+    border-color: #F6EDD5;
+    border-style: solid;
+    border-radius: 5px;
+    width: 95.33px;
+    height: 38px;
+    color: #F6EDD5;
+  
+  }
+
+  #last, #email {
+    margin-top: 9px;
+  }
+
+  #thankYou {
+    background-color: rgba(28, 47, 124);
+    border-color: #F6EDD5;
+    border-style: solid;
+    border-radius: 5px;
+    width: 95.33px;
+    height: 38px;
+    color: #F6EDD5;
+  font-size: 18px;
+  }
+
+  #back2you {
+    text-align:center;
+  }
+  
+  #tdp {
+    color: #F6EDD5;
+    font-family: segoe script;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow:0 3px 2px black;
+  }
+
+/* ----------------Nav Bar Info ---------------*/
+
+
+body {
+    font-family: Candara;
+  }
+  
+  #navLines {
+    color: rgba(28, 47, 124, 0.904);
+  }
+  
+  .mid{
+    margin-left: 50%;
+}
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgba(28, 47, 124, 0.904);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+ 
+  
+  /* This is for the tool tip pop up */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+
+/* *********MEDIA QUERIES*************** */
+
+/* ------------TABLET----------- */
+  @media(max-width:768px){
+    body{
+      background-image: url(/images/mainLogoTAB.jpg);
+      background-repeat: no-repeat; 
+      background-position-y: top;
+      background-attachment: fixed;
+    } 
+
+    .title{
+    font-size: 70px;
+    }
+
+    #left {
+      margin-left: -30px;
+    }
+    
+    #right {
+      margin-right: -30px;
+    }
+
+    p {
+      font-size: 25px;
+      padding: 40px 60px 30px  ;
+    }
+
+    .theBox {
+      min-height: 300px;
+       width: 90%;
+       margin: 22% 5%;
+     }
+
+    footer {
+      font-size: 70px;
+      width: 735px;
+      margin: 50px 15px 45px 15px;
+    }
+  }
+
+/*------------------------ IPHONE------------------- */
+
+  @media(max-width:414px){
+
+    body{
+      background-image: url(/images/mainLogoPhone2.jpg);
+        background-repeat: no-repeat; 
+        background-size: contain;
+      background-position-y: top;
+      background-attachment: fixed;
+    }
+
+    #navLines{
+      margin-left: 180px;
+    }
+
+    .title{
+      height: 75px;
+      font-size: 32px;
+      padding-top: 12px;
+      width: 397px;
+      margin-left: -8px;
+  }
+  
+  
+  .theBox {
+    width: 344px;
+    margin: 8% 2%;
+  }
+  
+  #left {
+    margin-left: 15px;
+  }
+  
+  #right {
+    margin-right: 10px;
+  }
+  
+  p {
+    font-weight: bold;
+    color: rgb(28,47,124);
+    text-align: center;
+    font-size: 15px;
+    padding: 55px 60px 30px  ;
+  }
+  
+  footer {
+    margin: 62px 15px 45px 8px;
+    height: 90px;
+    width: 397px;
+    font-size: 45px;
+  }
+  }
+

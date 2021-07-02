@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import bootstrap full CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href='style.css' type="text/css" rel='stylesheet'>
+    <link href='reset.css' type="text/css" rel='stylesheet'>
+    <title>Graph</title>
+
+</head>
+<body>
+
+  <span id="navLines" class="mid" style="font-size:30px;cursor:pointer" onclick="openNav()" data-toggle="tooltip"
+  title="Navigation Links">&#9776;</span>
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="/Home/home.html" >Home</a>
+      <a href="/graph/index.html" >Water Usage Statistics</a>
+      <a href="/H2O Quiz/quizIndex.html" >H2O Quiz</a>
+      <a href="/Water Saving Ideas/index.html" >Water Saving Tips</a>
+      <a href="/Water Conservation Conference/index.html" >Water Conservation Conference</a>
+      <a href="/Fun Facts/funfacts.html" >Fun Facts</a>
+    </div>
+</div>
+
+<div id="graphSection"></div>
+ 
+
+
+
+
+
+
+
+
+
+
+    <!-- import jquery -->
+    <script type ="text/javascript" src="js/jquery.js"></script>
+    <!-- import bootstrap scripts -->
+    <script src="js/bootstrap.bundle.js"></script>
+      <!-- import D3.js -->
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

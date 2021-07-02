@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+
+    <title>Water Conservation Conference</title>
+</head>
+<body>
+    <div class="container-fluid">
+ <!-- this is for the Nav Bar -->
+
+ <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <a href="/Home/home.html" >Home</a>
+                <a href="/graph/index.html" >Water Usage Statistics</a>
+                <a href="/H2O Quiz/quizIndex.html" >H2O Quiz</a>
+                <a href="/Water Saving Ideas/index.html" >Water Saving Tips</a>
+                <a href="/Water Conservation Conference/index.html" >Water Conservation Conference</a>
+                <a href="/Fun Facts/funfacts.html" >Fun Facts</a>
+    </div>
+</div>
+
+<!--------MAIN LOGO--------------->
+<div id="mainLogo">
+
+    <div id="logoPicture">
+
+        <span id="navLines" style="font-size:30px;cursor:pointer" onclick="openNav()" data-toggle="tooltip"
+            title="Navigation Links">&#9776;</span>
+
+        <p id="words" class="text-shadow text-*-left">The Drip Project</p>
+        <p id="details">is hosting a Water Conservation Conference</p>
+        <p id="details">7.8.2021</p>
+    </div>
+</div>
+
+<br>
+
+<!------MISSION--------->
+<div class="content">
+    <p id="explain">The Drip Project wants to bring awareness to the most important human commodity; water.  We will be sharing conservation methods and tips that families can implement to conserve their water usage. All are welcome. Please join us and help conserve water. We look forward to seeing you soon!</p>
+</div>
+
+<!-- LOGOS COLLAGE -->
+
+<div class="display-container">
+    <img id="allLogos" src="images/logosBlue.png" class="img-fluid">
+    <div id="youAre">You Are</div>
+    <br>
+    <div id="invited">Invited!</div>
+</div>
+
+<br>
+<!--------CONFERENCE INFO---->
+
+    <h1 id="theConf">The Conference</h1>
+<br>
+
+<div class="box-container">
+    <div class="box1">
+        <img id="confPic" src="images/confSeats.jpg" class="img-fluid">
+    </div>
+
+    <div class="box2">
+       <div id="whenWhere" class="row">
+         <div class="half">
+           <h3 id="when">When</h3>
+           <li id="present">Presentation - 2:00pm</li>
+           <li id="dinner">Dinner - 5:00pm</li>
+         </div>
+<br>
+<div class="half">
+    <h2 id="where">Where</h2>
+    <li id="hilton">Hilton Conference Center</li>
+    <li id="mesa">Mesa, AZ</li>
+</div>
+       </div>
+<br>
+<br>
+
+<h1 id="please">Please RSVP By May 2021</h1>
+
+<br>
+
+<button id="rsvpButton" type="button" class="btn" data-toggle="modal" data-target="#myModal">
+    RSVP</button>
+
+    <br>
+    <br>
+
+    <h1 id="help">Every Drop Counts... Learn How You Can Help Conserve Water!</h1>
+
+    <!----------MODAL-------------->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+<div class="modal-header">
+    <h4 class="modal-title">We Really Hope You Can Make It!</h4>
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+
+<div class="modal-body">
+    <form>
+        <input type="text" placeholder="First & Last Name" name="name">
+    </form>
+    <br>
+
+    <p id="tdp">Sincerely,
+        <br>The Drip Project ☺</p>
+</div>
+
+   <!-- Modal footer -->
+   <div class="modal-footer">
+        <button id="going" type="button" class="btn" data-toggle="modal" data-target="#myModal">Going</button>
+
+        <button id="notGoing" type="button" class="btn" data-toggle="modal" data-target="#myModal">Not Going</button>
+
+    <button id="close" type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+  </div>
+
+        </div> <!--closing divs for modal-->
+    </div> <!--closing divs for modal-->
+</div> <!--closing divs for modal-->
+
+       </div>
+    </div>
+</div>
+
+
+
+<footer >The Drip Project</footer>
+    
+</div>
+
+    </div> <!--closing div for body container-->
+
+
+
+    <!-- import jquery -->
+    <script type ="text/javascript" src="js/jquery.js"></script>
+    <!-- import bootstrap scripts -->
+    <script src="js/bootstrap.bundle.js"></script>
+      <!-- import D3.js -->
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

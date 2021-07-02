@@ -1,0 +1,158 @@
+body{
+    background-image: url(/graph/images/mainLogo.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+    font-family: Candara;
+}
+
+
+.axislabel{
+    font-size: 1.2em;
+   
+}
+
+#title{
+    font-size: 1.4em;
+  
+}
+
+.axis{
+    font-size: 1.0em;
+}
+
+.bar{
+    width: 90px;
+}
+
+/* nav bar */
+#navLines {
+    color: #1c2f7ce7;
+  margin-left: 50%;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgba(28, 47, 124, 0.904);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Candara
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  /* -----------------------------------------------IPAD -------------------------------------*/
+  @media screen and (max-width:770px){
+    #navLines {
+      /* color: #1c2f7ce7; */
+      margin-left: 50%;
+    }
+
+    body{
+      background-image: url(/graph/images/bg1.jpg);
+      background-size: cover;
+    background-repeat: no-repeat;
+    height: 1024px;
+      font-family: candara;
+  }
+
+  }
+
+  /* -------------------------------iPHONE------------------------------------------------- */
+   @media screen and (max-width: 414px) { 
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  
+  
+  /* This is for the tool tip pop up */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #navLines {
+    /* color: #1c2f7ce7; */
+    margin-left: 50%;
+  }
+
+  body{
+    background-image: url(/graph/images/graphPic.png);
+    background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #1c2f7ce7;
+  overflow: hidden;
+  }
+svg{
+  display: none;
+}
+}
+  
+
+  
